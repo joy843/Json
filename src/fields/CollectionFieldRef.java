@@ -1,6 +1,6 @@
-package com.company.fields;
+package fields;
 
-import com.company.reflectors.SerialisationReflector;
+import reflectors.SerialisationReflector;
 
 import java.lang.reflect.Field;
 import java.util.Collection;
