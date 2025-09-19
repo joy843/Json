@@ -1,0 +1,37 @@
+package com.company;
+
+public class Address {
+    private String street;
+    private String city;
+
+    public Address() {} // Constructeur par défaut (pour la désérialisation)
+
+    public Address(String street, String city) {
+        this.street = street;
+        this.city = city;
+    }
+
+    // Getters et setters
+    public String getStreet() {
+        return street;
+    }
+
+    public void setStreet(String street) {
+        this.street = street;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
+    @Override
+    public String toString() {
+        return "Address{" +
+                "street='" + street + '\'' +
+                ", city='" + city + '\'' +
+                '}';
+    }
+}
