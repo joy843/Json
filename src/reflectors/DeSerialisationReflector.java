@@ -1,9 +1,9 @@
-package com.company.reflectors;
+package reflectors;
 
-import com.company.fields.FieldRef;
-import com.company.fields.SimpleFieldRef;
-import com.company.fields.ObjectFieldRef;
-import com.company.fields.CollectionFieldRef;
+import fields.FieldRef;
+import fields.CollectionFieldRef;
+import fields.ObjectFieldRef;
+import fields.SimpleFieldRef;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;
