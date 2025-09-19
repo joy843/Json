@@ -1,4 +1,7 @@
-package com.company;
+package code;
+
+import annotations.Alias;
+import annotations.Ignored;
 
 import java.util.ArrayList;
 import java.util.List;
