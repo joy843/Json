@@ -1,4 +1,4 @@
-package com.company.fields;
+package fields;
 
 import java.lang.reflect.Field;
 
