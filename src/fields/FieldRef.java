@@ -1,7 +1,7 @@
-package com.company.fields;
+package fields;
 
-import com.company.annotations.Alias;
-import com.company.annotations.Ignored;
+import annotations.Alias;
+import annotations.Ignored;
 
 import java.lang.reflect.Field;
 
