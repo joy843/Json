@@ -1,12 +1,9 @@
-package com.company.reflectors;
+package reflectors;
 
-
-
-
-import com.company.fields.CollectionFieldRef;
-import com.company.fields.FieldRef;
-import com.company.fields.ObjectFieldRef;
-import com.company.fields.SimpleFieldRef;
+import fields.FieldRef;
+import fields.CollectionFieldRef;
+import fields.ObjectFieldRef;
+import fields.SimpleFieldRef;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
