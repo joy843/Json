@@ -1,6 +1,15 @@
-package com.company;
-import com.company.reflectors.DeSerialisationReflector;
-import com.company.reflectors.SerialisationReflector;
+package code;
+
+import annotations.Alias;
+import annotations.Ignored;
+
+import fields.FieldRef;
+import fields.SimpleFieldRef;
+import fields.ObjectFieldRef;
+import fields.CollectionFieldRef;
+
+import reflectors.SerialisationReflector;
+import reflectors.DeSerialisationReflector;
 
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
