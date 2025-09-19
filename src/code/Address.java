@@ -1,4 +1,4 @@
-package com.company;
+package code;
 
 public class Address {
     private String street;
